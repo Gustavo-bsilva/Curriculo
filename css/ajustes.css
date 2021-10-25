@@ -1,0 +1,139 @@
+.btn{
+    border: 1px solid #D4D4D4;
+}
+
+.btn:hover{
+    border-color: #0D6EFD !important;
+    color: #0D6EFD !important;
+}
+
+#whatsapp, #github, #linkedin{
+    height: 71px;
+    width: 71px;
+}
+
+#gmail{
+    height: 53px;
+    width: 71px;
+    background: url(../images/gmail.png);
+}
+
+#whatsapp{
+    background: url(../images/whatsapp.png);
+}
+
+#github{
+    background: url(../images/github.png);
+}
+
+#linkedin{
+    background: url(../images/linkedin.png);
+}
+
+#osdois{
+    color: rgba(0, 0, 0, 0.15); 
+    text-decoration: none;
+    cursor: pointer;
+}
+
+span{
+    text-align: center;
+}
+
+#osdois:hover{
+    color: #0D6EFD !important;
+}
+
+#title{
+    text-align: center;
+}
+
+@media (max-width: 450px) {
+
+    body{
+        min-width: 360px;
+    }
+
+    div#buttons{
+        width: 100% !important;
+    }
+
+    div#buttons button.btn{
+        width: 48% !important;
+        margin: 20px 0 !important;
+        padding: 0;
+    }
+
+    #contacts{
+        width: 100% !important;
+    }
+
+    #contacts a{
+        width: 50px;
+        height: 50px;
+        background-size: 50px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #title{
+        font-size: 1.5em !important;
+    }
+
+    #subtitle{
+        font-size: 0.9em !important;
+    }
+}
+
+@media (min-width: 451px) and (max-width: 767px) {
+    div#buttons{
+        width: 100% !important;
+    }
+
+    div#buttons button.btn{
+        width: 48% !important;
+        margin: 20px 0 !important;
+        padding: 0;
+    }
+
+    #contacts{
+        width: 100% !important;
+    }
+
+    #contacts a{
+        width: 60px;
+        height: 60px;
+        background-size: 60px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #title{
+        font-size: 1.8em !important;
+    }
+
+    #subtitle{
+        font-size: 1em !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+
+    div#buttons button.btn{
+        width: 48% !important;
+        margin: 20px 0 !important;
+        padding: 0;
+    }
+
+    #contacts{
+        width: 70% !important;
+    }
+
+    #contacts a{
+        width: 60px;
+        height: 60px;
+        background-size: 60px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
